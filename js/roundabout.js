@@ -192,7 +192,8 @@ roundabout.Carousel = (function() {
 
         if (self.loadIndex === totalImages) {
 
-
+            self.setPosition();
+            
             self.slideTrack.animate({ opacity: 1 }, this.options.speed, function(){
                 self.setPosition();
             });
