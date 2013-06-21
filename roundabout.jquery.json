@@ -1,0 +1,38 @@
+{
+    "name": "roundabout",
+    "title": "Roundabout",
+    "description": "A jQuery responsive touch carousel",
+    "keywords": [
+        "responsive",
+        "slider",
+        "carousel",
+        "touch",
+        "mobile"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Ken Wheeler",
+        "url": "http://www.dubmediagroup.com"
+    },
+    "maintainers": [
+        {
+            "name": "Ken Wheeler",
+            "email": "dubmediagroup@gmail.com",
+            "url": "http://www.dubmediagroup.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "GPLv2",
+            "url": "http://www.example.com/licenses/gpl.html"
+        }
+    ],
+    "demo": "http://dubmediagroup.com/roundabout/",
+    "bugs": "https://github.com/kdubbicles/roundabout/issues",
+    "homepage": "https://github.com/kdubbicles/roundabout/",
+    "docs": "https://github.com/kdubbicles/roundabout/",
+    "download": "https://github.com/kdubbicles/roundabout/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
