@@ -192,7 +192,7 @@ roundabout.Carousel = (function() {
 
         if (self.loadIndex === totalImages) {
 
-            self.list.find('img').css({ opacity: 1 }, this.options.speed, function(){
+            self.list.find('img').animate({ opacity: 1 }, this.options.speed, function(){
                 self.setPosition();
             });
 
