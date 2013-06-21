@@ -1,4 +1,4 @@
-.bt-loading { background: url('../img/ajax-loader.gif') center center no-repeat; }
+.bt-loading .bt-list { background: #fff url('../img/ajax-loader.gif') center center no-repeat; }
 
 /* Roundabout */
 

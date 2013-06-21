@@ -102,6 +102,10 @@ a.button {
 }
 
 @media only screen and (max-width: 1024px) {
+
+    h1 {
+        font-size: 60px !important;
+    }
     .content {
         margin: 20px;
     }
