@@ -6,7 +6,7 @@
 .bt-slider .bt-list { overflow: hidden; display: block; margin: 0px; padding: 0px; }
 .bt-slider .bt-track { position: relative; left: 0px; top: 0px; }
 .bt-slider .bt-list .slide { display: block; list-style-type: none; float: left; }
-.bt-slider .bt-list .slide img { display: block; opacity: 0; }
+.bt-slider .bt-list .slide img { display: block; }
 .bt-slider .bt-prev { position: absolute; background: url('../img/sierramist.png') -40px -40px no-repeat; display: block; height: 20px; width: 20px; text-indent: -9999px; top: 50%; margin-top: -27px; left: 10px; padding: 10px;}
 .bt-slider .bt-next { position: absolute; background: url('../img/sierramist.png') -90px -40px no-repeat; display: block; height: 20px; width: 20px; text-indent: -9999px; top: 50%; margin-top: -27px; right: 10px; padding: 10px; }
 .bt-slider .bt-next.disabled { background-position: -90px -90px }

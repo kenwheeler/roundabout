@@ -90,8 +90,8 @@ roundabout.Carousel = (function() {
             this.buildOut();
             this.getAnimType();
             this.setPosition();
-            this.intializeEvents();
             this.startLoad();
+            this.intializeEvents();
 
         }
 
@@ -161,7 +161,7 @@ roundabout.Carousel = (function() {
 
     Carousel.prototype.startLoad = function() {
 
-        this.list.find('img').css('opacity', 0);
+        this.slideTrack.css('opacity', 0);
 
         if (this.options.arrows === true) {
 
@@ -192,7 +192,8 @@ roundabout.Carousel = (function() {
 
         if (self.loadIndex === totalImages) {
 
-            self.list.find('img').animate({ opacity: 1 }, this.options.speed, function(){
+
+            self.slideTrack.animate({ opacity: 1 }, this.options.speed, function(){
                 self.setPosition();
             });
 
