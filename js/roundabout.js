@@ -161,8 +161,6 @@ roundabout.Carousel = (function() {
 
     Carousel.prototype.startLoad = function() {
 
-        this.slideTrack.css('opacity', 0);
-
         if (this.options.arrows === true) {
 
             this.prevArrow.hide();
@@ -246,6 +244,7 @@ roundabout.Carousel = (function() {
 
         this.slider.addClass("bt-slider");
         this.slideTrack = this.slides.wrapAll('<div class="bt-track"/>').parent();
+        this.slideTrack.css('opacity', 0);
 
         if (this.options.arrows === true) {
 
