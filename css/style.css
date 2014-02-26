@@ -72,9 +72,9 @@ a.button {
     text-shadow: 1px 1px 0px #dddddd;
 }
 
-.bt-list { background-color: #fff; }
+.roundabout-list { background-color: #fff; }
 
-.bt-list {
+.roundabout-list {
     z-index: 9999;
     border: 4px solid white;
     box-shadow:  0 8px 6px -8px black;
@@ -93,10 +93,14 @@ a.button {
         margin: auto;
     }
 
-    .bt-slider {
+    .roundabout-slider {
     	position: relative;
     	width: 800px;
     	margin: 20px auto;
+    }
+
+    .roundabout-list {
+        width: 800px;
     }
 
 }
