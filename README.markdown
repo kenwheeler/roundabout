@@ -31,6 +31,10 @@ speed: int - (default: 300) - Transition speed
 
 swipe: true | false - (default: true) - Enables touch swipe  
 
+list: string - (default: ul:first) - A string containing a selector expression
+
+slide: string - (default: 'li') - A string containing a selector expression
+
 
 ### Example
 

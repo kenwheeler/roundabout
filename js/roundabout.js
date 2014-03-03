@@ -73,7 +73,9 @@ var mobileDetect = function() {
                 arrows: true,
                 infinite: true,
                 speed: 300,
-                swipe: true
+                swipe: true,
+                list: 'ul:first',
+                slide: 'li'
             };
 
             this.animType = null;
@@ -254,9 +256,9 @@ var mobileDetect = function() {
 
         Carousel.prototype.setValues = function() {
 
-            this.list = this.slider.find('ul:first').addClass('roundabout-list');
+            this.list = this.slider.find(this.options.list).addClass('roundabout-list');
             this.sliderWidth = this.list.outerWidth();
-            this.slides = $('li:not(.cloned)', this.list).addClass('slide');
+            this.slides = $(this.options.slide + ':not(.cloned)', this.list).addClass('slide');
             this.slideCount = this.slides.length;
 
         };
@@ -304,8 +306,8 @@ var mobileDetect = function() {
         };
 
         Carousel.prototype.setDimensions = function() {
-            this.list.find('li').width(this.sliderWidth);
-            this.slideTrack.width(this.sliderWidth * this.slider.find('li').length);
+            this.list.find('.slide').width(this.sliderWidth);
+            this.slideTrack.width(this.sliderWidth * this.slider.find('.slide').length);
         };
 
         Carousel.prototype.setPosition = function() {
