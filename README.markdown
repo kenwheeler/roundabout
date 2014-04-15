@@ -1,6 +1,8 @@
 Roundabout
 -------
 
+** Roundabout will not be maintained any longer. Please use [slick](http://github.com/kenwheeler/slick/) now **
+
 [1]: <https://github.com/kdubbicles/roundabout>
 
 ## A Responsive Swipeable Carousel
